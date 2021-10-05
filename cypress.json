@@ -1,0 +1,33 @@
+{
+    
+    "env": {
+        "URL":"https://fakerestapi.azurewebsites.net",
+        "PostAuthor": {
+            "id": 1000,
+            "idBook": 1001,
+            "firstName": "First Name 1000",
+            "lastName": "Last Name 1000"
+        },
+        "GetAuthorByIdBook": {
+            "idBook": 2,
+            "WrongBookId" : 123456789987654321,
+            "title":"One or more validation errors occurred."
+        },
+        "GetAuthorById": {
+            "id": 10
+        },
+        "PutAuthor": {
+            "id": 12,
+            "idBook": 120,
+            "idBookWrong": "idBook 12",
+            "firstName": "First Name 1200",
+            "lastName": "Last Name 1200",
+            "title":"One or more validation errors occurred."
+        },
+        "DeleteAuthor": {
+            "id": 30,
+            "wrongId": 12009003543253,
+            "title":"One or more validation errors occurred."
+        }
+    }
+}
